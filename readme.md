@@ -1,3 +1,6 @@
+
+(현재 진행중)
+
 # BigBiGAN
 
 간단히 표현하면 BiGAN에 당시 이미지 생성에서 SOTA였던 BigGAN의 아키텍쳐를 사용한 모델 (나중엔 바뀔테니 과거형으로)
@@ -52,6 +55,9 @@ Generator 가 여러번 학습할때 Discriminator가 한번씩 학습할 수 �
 평가측도는 기존모델과의 비교를 위해 IS를 
 그리고 IS에서 평가하지 못하는 부분의 평가를위해 FID를 사용
 
+## 모델 구조
+
+
 
 
 
@@ -65,6 +71,7 @@ Generator 가 여러번 학습할때 Discriminator가 한번씩 학습할 수 �
 
 ## 해야할일
 1. EG 구현
+ - Self Attention 구현
 2. D 구현
 3. loss 구현
 4. **Encorder에 사용될 ResNet50구현** 
