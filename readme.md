@@ -1,5 +1,5 @@
 
-(현재 진행중)
+# Unfinished
 
 # BigBiGAN
 
